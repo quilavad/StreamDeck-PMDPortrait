@@ -1,12 +1,12 @@
 {
   "Actions": [
     {
-      "Icon": "assets/portrait/0156/Normal",
+      "Icon": "assets/portrait/0000/0001/Normal",
       "Name": "PMD Portrait",
       "States": [
         {
-          "Image": "assets/portrait/0156/Normal",
-          "TitleAlignment": "middle",
+          "Image": "assets/Illuding",
+          "TitleAlignment": "bottom",
           "FontSize": "16"
         }
       ],
@@ -16,14 +16,14 @@
     }
   ],
   "Category": "PMD Portraits",
-  "CategoryIcon": "assets/portrait/0156/Inspired",
+  "CategoryIcon": "assets/portrait/0000/0001/Happy",
   "Disabled": false,
   "Author": "quilavad",
   "CodePath": "PMDPortrait.exe",
   "PropertyInspectorPath": "property_inspector/property_inspector.html",
   "Description": "Displays interactive PMD Portraits from PMDCollab Sprites. (https://sprites.pmdcollab.org/#/)",
   "Name": "PMDPortrait",
-  "Icon": "assets/portrait/0156/Inspired",
+  "Icon": "assets/portrait/0156/Happy",
   "URL": "https://github.com/quilavad/StreamDeck-PMDPortrait",
   "Version": "1.0",
   "SDKVersion": 2,

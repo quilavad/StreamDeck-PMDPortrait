@@ -64,13 +64,13 @@ namespace PMDPortrait
 		public override async Task OnDidReceiveSettings(StreamDeckEventPayload args)
 		{
 			await base.OnDidReceiveSettings(args);
-            await Manager.SetImageAsync(aTemp.context, getFormPath("assets/portrait/") + "Normal.png");
+            await Manager.SetImageAsync(args.context, getFormPath("assets/portrait/") + "Normal.png");
         }
 
-		public override async Task OnWillAppear(StreamDeckEventPayload args)
+        public override async Task OnWillAppear(StreamDeckEventPayload args)
 		{
 			await base.OnWillAppear(args);
-		}
-
-	}
+            await Manager.SetImageAsync(args.context, getFormPath("assets/portrait/") + "Normal.png");
+        }
+    }
 }
