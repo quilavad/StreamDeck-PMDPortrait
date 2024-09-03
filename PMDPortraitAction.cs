@@ -9,7 +9,7 @@ using System.IO;
 
 namespace PMDPortrait
 {
-  [ActionUuid(Uuid="quilavad.pmdportrait.DefaultPluginAction")]
+  [ActionUuid(Uuid="quilavad.pmdportrait")]
   public class PMDPortraitAction : BaseStreamDeckActionWithSettingsModel<Models.PMDPortraitModel>
   {
 		private Thread thread;

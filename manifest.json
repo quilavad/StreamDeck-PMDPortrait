@@ -12,7 +12,7 @@
       ],
       "SupportedInMultiActions": false,
       "Tooltip": "Interact with the portrait.",
-      "UUID": "quilavad.pmdportrait.DefaultPluginAction"
+      "UUID": "quilavad.pmdportrait"
     }
   ],
   "Category": "PMD Portraits",
